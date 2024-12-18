@@ -1,0 +1,1216 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PermissionManager",
+    "printedName": "PermissionManager",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PermissionStatusType",
+        "printedName": "PermissionStatusType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notDetermined",
+            "printedName": "notDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO13notDeterminedyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO13notDeterminedyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "restricted",
+            "printedName": "restricted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO10restrictedyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO10restrictedyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "denied",
+            "printedName": "denied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO6deniedyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO6deniedyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "authorized",
+            "printedName": "authorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO10authorizedyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO10authorizedyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "limited",
+            "printedName": "limited",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO7limitedyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO7limitedyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "provisional",
+            "printedName": "provisional",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO11provisionalyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO11provisionalyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "ephemeral",
+            "printedName": "ephemeral",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO9ephemeralyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO9ephemeralyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionStatusType.Type) -> PermissionManager.PermissionStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionStatusType",
+                        "printedName": "PermissionManager.PermissionStatusType",
+                        "usr": "s:17PermissionManager0A10StatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A10StatusTypeO7unknownyA2CmF",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO7unknownyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PermissionManager.PermissionStatusType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionStatusType",
+                    "printedName": "PermissionManager.PermissionStatusType",
+                    "usr": "s:17PermissionManager0A10StatusTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17PermissionManager0A10StatusTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PermissionManager0A10StatusTypeO8rawValueSivp",
+            "mangledName": "$s17PermissionManager0A10StatusTypeO8rawValueSivp",
+            "moduleName": "PermissionManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PermissionManager0A10StatusTypeO8rawValueSivg",
+                "mangledName": "$s17PermissionManager0A10StatusTypeO8rawValueSivg",
+                "moduleName": "PermissionManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17PermissionManager0A10StatusTypeO",
+        "mangledName": "$s17PermissionManager0A10StatusTypeO",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PermissionManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "PermissionManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "PermissionManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PermissionManagerClass",
+        "printedName": "PermissionManagerClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionManagerClass",
+                "printedName": "PermissionManager.PermissionManagerClass",
+                "usr": "s:17PermissionManager0aB5ClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17PermissionManager0aB5ClassCACycfc",
+            "mangledName": "$s17PermissionManager0aB5ClassCACycfc",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "unreference",
+            "printedName": "unreference()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC11unreferenceyyF",
+            "mangledName": "$s17PermissionManager0aB5ClassC11unreferenceyyF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCallback",
+            "printedName": "setCallback(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionCallbackProtocol",
+                "printedName": "any PermissionManager.PermissionCallbackProtocol",
+                "usr": "s:17PermissionManager0A16CallbackProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC11setCallback8callbackyAA0aE8Protocol_p_tF",
+            "mangledName": "$s17PermissionManager0aB5ClassC11setCallback8callbackyAA0aE8Protocol_p_tF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDevicePermissionStatus",
+            "printedName": "getDevicePermissionStatus(permission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionStatusType",
+                "printedName": "PermissionManager.PermissionStatusType",
+                "usr": "s:17PermissionManager0A10StatusTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC09getDeviceA6Status10permissionAA0aF4TypeOAA0aH0O_tF",
+            "mangledName": "$s17PermissionManager0aB5ClassC09getDeviceA6Status10permissionAA0aF4TypeOAA0aH0O_tF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationSettingsType",
+            "printedName": "notificationSettingsType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionStatusType",
+                "printedName": "PermissionManager.PermissionStatusType",
+                "usr": "s:17PermissionManager0A10StatusTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC24notificationSettingsTypeAA0a6StatusF0OyF",
+            "mangledName": "$s17PermissionManager0aB5ClassC24notificationSettingsTypeAA0a6StatusF0OyF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkNotificationSettings",
+            "printedName": "checkNotificationSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationStatus",
+                "printedName": "UserNotifications.UNAuthorizationStatus",
+                "usr": "c:@E@UNAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC25checkNotificationSettingsSo21UNAuthorizationStatusVyF",
+            "mangledName": "$s17PermissionManager0aB5ClassC25checkNotificationSettingsSo21UNAuthorizationStatusVyF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(permission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC07requestA010permissionyAA0A4TypeO_tF",
+            "mangledName": "$s17PermissionManager0aB5ClassC07requestA010permissionyAA0A4TypeO_tF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermissionWithCallback",
+            "printedName": "requestPermissionWithCallback(permission:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0aB5ClassC07requestA12WithCallback10permission10completionyAA0A4TypeO_ySbctF",
+            "mangledName": "$s17PermissionManager0aB5ClassC07requestA12WithCallback10permission10completionyAA0A4TypeO_ySbctF",
+            "moduleName": "PermissionManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17PermissionManager0aB5ClassC",
+        "mangledName": "$s17PermissionManager0aB5ClassC",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PermissionCallbackProtocol",
+        "printedName": "PermissionCallbackProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onNotDetermined",
+            "printedName": "onNotDetermined(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0A16CallbackProtocolP15onNotDeterminedyyAA0A4TypeOF",
+            "mangledName": "$s17PermissionManager0A16CallbackProtocolP15onNotDeterminedyyAA0A4TypeOF",
+            "moduleName": "PermissionManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : PermissionManager.PermissionCallbackProtocol>",
+            "sugared_genericSig": "<Self where Self : PermissionManager.PermissionCallbackProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthorized",
+            "printedName": "onAuthorized(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0A16CallbackProtocolP12onAuthorizedyyAA0A4TypeOF",
+            "mangledName": "$s17PermissionManager0A16CallbackProtocolP12onAuthorizedyyAA0A4TypeOF",
+            "moduleName": "PermissionManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : PermissionManager.PermissionCallbackProtocol>",
+            "sugared_genericSig": "<Self where Self : PermissionManager.PermissionCallbackProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDenined",
+            "printedName": "onDenined(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0A16CallbackProtocolP9onDeninedyyAA0A4TypeOF",
+            "mangledName": "$s17PermissionManager0A16CallbackProtocolP9onDeninedyyAA0A4TypeOF",
+            "moduleName": "PermissionManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : PermissionManager.PermissionCallbackProtocol>",
+            "sugared_genericSig": "<Self where Self : PermissionManager.PermissionCallbackProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17PermissionManager0A16CallbackProtocolP",
+        "mangledName": "$s17PermissionManager0A16CallbackProtocolP",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PermissionType",
+        "printedName": "PermissionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "camera",
+            "printedName": "camera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionType.Type) -> PermissionManager.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "PermissionManager.PermissionType",
+                    "usr": "s:17PermissionManager0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "PermissionManager.PermissionType",
+                        "usr": "s:17PermissionManager0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A4TypeO6camerayA2CmF",
+            "mangledName": "$s17PermissionManager0A4TypeO6camerayA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "microphone",
+            "printedName": "microphone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionType.Type) -> PermissionManager.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "PermissionManager.PermissionType",
+                    "usr": "s:17PermissionManager0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "PermissionManager.PermissionType",
+                        "usr": "s:17PermissionManager0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A4TypeO10microphoneyA2CmF",
+            "mangledName": "$s17PermissionManager0A4TypeO10microphoneyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "photo",
+            "printedName": "photo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionType.Type) -> PermissionManager.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "PermissionManager.PermissionType",
+                    "usr": "s:17PermissionManager0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "PermissionManager.PermissionType",
+                        "usr": "s:17PermissionManager0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A4TypeO5photoyA2CmF",
+            "mangledName": "$s17PermissionManager0A4TypeO5photoyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Var",
+            "name": "notification",
+            "printedName": "notification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PermissionManager.PermissionType.Type) -> PermissionManager.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "PermissionManager.PermissionType",
+                    "usr": "s:17PermissionManager0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PermissionManager.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "PermissionManager.PermissionType",
+                        "usr": "s:17PermissionManager0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17PermissionManager0A4TypeO12notificationyA2CmF",
+            "mangledName": "$s17PermissionManager0A4TypeO12notificationyA2CmF",
+            "moduleName": "PermissionManager"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "PermissionManager.PermissionType",
+                "usr": "s:17PermissionManager0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0A4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17PermissionManager0A4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "PermissionManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PermissionManager0A4TypeO9hashValueSivp",
+            "mangledName": "$s17PermissionManager0A4TypeO9hashValueSivp",
+            "moduleName": "PermissionManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PermissionManager0A4TypeO9hashValueSivg",
+                "mangledName": "$s17PermissionManager0A4TypeO9hashValueSivg",
+                "moduleName": "PermissionManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PermissionManager0A4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17PermissionManager0A4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "PermissionManager",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17PermissionManager0A4TypeO",
+        "mangledName": "$s17PermissionManager0A4TypeO",
+        "moduleName": "PermissionManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/PersonalProject\/PermissionManagerFramework\/PermissionManager\/enum\/PermissionStateTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 2,
+      "value": "99"
+    }
+  ]
+}
